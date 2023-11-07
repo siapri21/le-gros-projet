@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+body{
+    color: aquamarine;
+}
+.heading{
+    margin: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 5rem;
+
+}
+
+
+.headers{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 5%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.headers nav {
+    text-align: center;
+}
+
+.liengroup {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: column;
+
+}
+
+.liengroup li {
+    display: inline;
+    margin: 0 10px; 
+    font-size: 15px;
+    color: darkgray;
+}
+
+.liengroup .bas{
+    margin-top: 150px;
+}
+
+.liengroup .haut{
+    margin-top: 50px;
+}
+
+.liengroup .haut.beneficiaire{
+    order: -1;
+    background-color: aquamarine;
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+.liengroup .haut .recrutement{
+    order: -1; /*place le recrutement en haut */
+    background-color: rgb(47, 189, 255);
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+
+
